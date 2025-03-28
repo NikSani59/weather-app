@@ -1,0 +1,81 @@
+body{
+    background-color: hsl(0, 0%, 15%);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+.weatherForm{
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    height: 650px;
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.4);;
+    overflow: hidden;
+}
+.textBox{
+    margin-top: 50px;
+    font-size: 1.2em;
+    padding-left: 20px;
+    width: 300px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    background-color: hsl(186, 73%, 91%);
+    box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.2);
+}
+#searchBtn{
+    border: none;
+    border-radius: 50px;
+    background-color: hsl(186, 73%, 91%);
+    margin-left: 20px;
+    font-size: 1em;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.2);
+}
+#searchBtn:hover{
+    background-color: hsl(186, 73%, 100%);
+}
+#search-icon {
+    font-size: 24px;
+    color: hsl(0, 0%, 50%);
+}
+.card{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.emojiDisplay{
+    font-size: 8em;
+}
+.tempDisplay{
+    font-size: 4.5em;
+}
+.cityDisplay{
+    font-size: 3.5em;
+}
+.cityDisplay, .tempDisplay, .emojiDisplay{
+    color: white;
+    margin: 10px;
+}
+.cityDisplay, .tempDisplay{
+    color: white;
+    margin: 10px;
+}
+.humidityDisplay, .descDisplay {
+    color: white;
+    margin: 20px;
+    font-size: 2.2em;
+    font-style: italic;
+}
+.displayError{
+    font-size: 2.5em;
+    color: white;
+    font-weight: bold;
+}
