@@ -26,6 +26,7 @@ body{
     border-radius: 15px;
     background-color: hsl(186, 73%, 91%);
     box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.2);
+    outline: none;
 }
 #searchBtn{
     border: none;
